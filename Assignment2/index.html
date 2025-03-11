@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            table-layout: fixed;
+        }
+        
+        .last-table {
+            border-collapse: separate;
+            width: 60%;
+            table-layout: auto;
+        }
+        
+        td, th {
+            border: 1px solid black;
+            height: 20px;
+        }
+
+        img {
+            width: 95%;
+            height: auto;
+            margin: 10% 10% 10% 0%;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td align="left">left</td>
+                <td align="center">center</td>
+                <td align="right">right</td>
+            </tr>
+            <tr>
+                <td align="left">left</td>
+                <td align="center">center</td>
+                <td align="right">right</td>
+            </tr>
+            <tr>
+                <td align="left">left</td>
+                <td align="center">center</td>
+                <td align="right">right</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+               <th colspan="6">Heading</th>
+            </tr>           
+            <tr>
+               <td colspan="6"></td>
+            </tr>
+            <tr>
+               <td rowspan="4"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3" rowspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="4"></td>
+                <td></td>
+                <td rowspan="4"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table class="last-table">
+            <tr>
+                <td style="background-color:darkgreen; height: 40px;" colspan="3"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td align="left"> <img src="Capture.PNG" alt="FROG"> </td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td style="background-color:darkblue; height: 40px" colspan="3"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
