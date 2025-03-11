@@ -35,9 +35,6 @@ nav ul li a {
 }
 
 header {
-    max-width: 60vw;
-    text-align: center;
-    margin: auto;
     padding: 80px 20px;
     background: #007bff;
     color: white;
